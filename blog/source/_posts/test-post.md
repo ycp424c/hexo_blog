@@ -24,8 +24,15 @@ hexo new <title>
 ```
 
 ####生成&展开
+```
 hexo generate --deploy
+
+hexo g -d //或者简写成这样
+```
 
 ####写在最后的备忘
 别忘了改掉config文件。。。
 最后的最后：终于有node的静态博客引擎了，喜闻乐见~
+
+####后记
+原来是可以自动发布的，可是配置貌似有点麻烦，然后我就只用generate的功能，然后把dist目录改成githubpage项目的目录，手动发布
